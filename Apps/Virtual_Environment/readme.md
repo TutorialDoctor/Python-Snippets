@@ -2,8 +2,6 @@ Resource: https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python
 
 You'll need to install virtualenv: https://virtualenv.pypa.io/en/latest/installation/
 
-To run the app:
-
 To create a virtual environemt folder from your proejct folder (already done in this case):
 
 ~~`virtualenv env`~~
@@ -16,7 +14,7 @@ If you want to check the python path of the virtual environment:
 
 `which python3`
 
-To run the app from the Virtual_Environment directory:
+**To run the app from the Virtual_Environment directory:**
 
 `python3 app.py`
 
