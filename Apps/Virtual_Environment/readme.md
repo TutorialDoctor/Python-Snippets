@@ -1,5 +1,3 @@
-Resource: https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
-
 You'll need to install virtualenv: https://virtualenv.pypa.io/en/latest/installation/
 
 To create a virtual environemt folder from your proejct folder (already done in this case):
@@ -25,6 +23,9 @@ Since you've activated the source you can now do:
 To install modules from the requirements file into the virtual environment do:
 
 `env/bin/pip install -r requirements.txt`
+
+
+((Resource:** https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/
 
 This is helpful also:
 
