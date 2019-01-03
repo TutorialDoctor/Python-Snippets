@@ -22,3 +22,8 @@ Since you've activated the source you can now do:
 To install modules from the requirements file into the virtual environment do:
 
 `env/bin/pip install -r requirements.txt`
+
+This is helpful also:
+
+https://www.enigmeta.com/blog/starting-flask/
+
