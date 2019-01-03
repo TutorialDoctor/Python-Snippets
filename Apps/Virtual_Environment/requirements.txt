@@ -1,0 +1,9 @@
+requests
+Flask
+pymongo
+flask_pymongo
+Flask_JWT_Extended
+Flask_Bcrypt
+jsonschema
+Flask_JWT
+Pillow
