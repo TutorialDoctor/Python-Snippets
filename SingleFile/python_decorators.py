@@ -44,6 +44,19 @@ def aFunc4():
 	print('gift')
 aFunc4()
 
+# Decorator with arguments
+def add(num):
+    def add(func):
+        def wrapper(*args,**kwargs):
+            return func(*args,**kwargs) + num
+        return wrapper
+    return add
+
+@add(3)
+def add(a,b):
+    return a+b
+
+print(add(34,1))
 
 
 #Decorate a divide function with a check for a valid denominator value.
