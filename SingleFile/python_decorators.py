@@ -52,7 +52,8 @@ def prevent_divide_by_zero(func):
 	#To pass the arguments of the function to the wrapper:
 	def wrapped(*args,**kwargs):
 		#If the 2nd argument is not 0:
-		if args[1]!=0: 
+		denominator = args[1]
+		if denominator !=0: 
 			print("The quotient is:")
 			#Call the input-function, passing in the keyword arguments
 			func(*args,**kwargs)
